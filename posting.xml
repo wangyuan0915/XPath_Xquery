@@ -1,0 +1,113 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE postings SYSTEM "posting.dtd">
+<postings>
+	<posting pID="p01">
+		<position>Product Manager</position>
+		<reqSkill what="C" level="3" importance="5"/>
+		<reqSkill what="Java" level="4" importance="2"/>
+		<questions>	
+			<question qID="q01">Are you Canadian?</question>
+			<question qID="q02">Do you like coding?</question>
+			<question qID="q03">Have you attended ACM?</question>
+			<question qID="q04">Do you have github account?</question>
+			<question qID="q05">How much projects have you done?</question>
+		</questions>		
+	</posting>
+
+
+	<posting pID="p02">
+		<position>Software Engineer</position>
+		<reqSkill what="C" level="5" importance="2"/>
+		
+		<!--<reqSkill what="Java" level="5" importance="5"/>
+		<reqSkill what="Lisp" level="2" importance="3"/>
+		<reqSkill what="Perl" level="3" importance="1"/>		
+		<reqSkill what="Shell" level="1" importance="1"/>-->
+		<questions>	
+			<question qID="q02">Do you like coding?</question>
+			<question qID="q05">How much projects have you done?</question>
+			<question qID="q06">Can you write a AVL by java?</question>
+		</questions>		
+	</posting>
+
+
+
+	<posting pID="p03">
+		<position>Software Engineer</position>
+		<reqSkill what="Prolog" level="3" importance="2"/>
+		<reqSkill what="LaTeX" level="5" importance="1"/>
+		<questions>	
+			<question qID="q07">What system do you use?</question>
+		</questions>		
+	</posting>
+
+
+<!--<!ATTLIST reqSkill what (C|Java|SQL|XQuery|Haskell|Lisp|Scheme|Prolog|Perl|Python|R|MATLAB|Shell|sed|awk|LaTeX) #REQUIRED>-->
+	<posting pID="p04">
+		<position>CTO</position>
+		<reqSkill what="C" level="5" importance="5"/>
+		<reqSkill what="Java" level="5" importance="5"/>
+		<reqSkill what="SQL" level="5" importance="5"/>
+		<reqSkill what="XQuery" level="5" importance="5"/>
+		<reqSkill what="Haskell" level="5" importance="5"/>
+		<reqSkill what="Lisp" level="5" importance="5"/>
+		<reqSkill what="Scheme" level="5" importance="5"/>
+		<reqSkill what="Prolog" level="5" importance="5"/>
+		<reqSkill what="Perl" level="5" importance="5"/>
+		<reqSkill what="Python" level="5" importance="5"/>
+		<reqSkill what="R" level="5" importance="5"/>
+		<reqSkill what="MATLAB" level="5" importance="5"/>
+		<reqSkill what="Shell" level="5" importance="5"/>
+		<reqSkill what="sed" level="5" importance="5"/>
+		<reqSkill what="awk" level="5" importance="5"/>
+		<reqSkill what="LaTeX" level="5" importance="5"/>
+	</posting>
+
+	<posting pID="p05">
+		<position>Software Engineer</position>
+		<reqSkill what="awk" level="5" importance="5"/>
+		<reqSkill what="sed" level="5" importance="5"/>
+		<reqSkill what="Perl" level="2" importance="1"/>
+		<reqSkill what="Python" level="1" importance="1"/>
+		<questions>	
+			<question qID="q02">Do you like coding?</question>
+			<question qID="q05">How much projects have you done?</question>
+			<question qID="q07">What system do you use?</question>
+			<question qID="q08">Write an AVL tree by awk</question>
+		</questions>		
+	</posting>
+
+	<posting pID="p06">
+		<position>VP</position>
+		<reqSkill what="awk" level="2" importance="2"/>
+		<reqSkill what="Lisp" level="5" importance="5"/>
+		<reqSkill what="Scheme" level="5" importance="5"/>
+		<questions>	
+			<question qID="q09">What ?</question>
+		</questions>		
+	</posting>
+
+	<posting pID="p07">
+		<position>Testing</position>
+		<reqSkill what="R" level="4" importance="3"/>
+		<questions>	
+			<question qID="q01">Are you Canadian?</question>
+			<question qID="q02">Do you like coding?</question>
+			<question qID="q03">Have you attended ACM?</question>
+			<question qID="q04">Do you have github account?</question>
+			<question qID="q05">How much projects have you done?</question>
+			<question qID="q07">What system do you use?</question>
+		</questions>		
+	</posting>
+
+	<posting pID="p08">
+		<position>Software Engineer</position>
+		<reqSkill what="awk" level="1" importance="2"/>
+		<questions>	
+			<question qID="q07">What system do you use?</question>
+		</questions>		
+	</posting>
+
+
+
+</postings>

@@ -1,0 +1,164 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE interviews SYSTEM "interview.dtd">
+<interviews>
+    <interview rID = "r01" pID = "p01" sID = "s01">
+        <date>2014.11.25</date>
+        <time>5pm</time>
+		<location>BA</location>
+        <assessment> 
+        	<answers>
+        		<answer qID= "q01">45</answer>	
+        		<answer qID= "q02">52</answer>	
+        		<answer qID= "q03">12</answer>
+        		<answer qID= "q04">85</answer>	
+        		<answer qID= "q05">20</answer>	
+        	</answers>
+        	<techProficiency>21</techProficiency>
+        	<communication>56</communication>
+        	<enthusiasm>65</enthusiasm>
+        	<collegiality>45</collegiality>
+        </assessment>
+    </interview> 
+    
+    <interview rID = "r02" pID = "p02" sID = "s02">
+        <date>2014.11.26</date>
+        <time>11pm</time>
+		<location>CN tower</location>
+        <assessment> 
+        	<answers>
+        		<answer qID= "q02">22</answer>
+        		<answer qID= "q05">99</answer>
+        		<answer qID= "q06">11</answer>		
+        	</answers>
+        	<techProficiency>98</techProficiency>
+        	<communication>25</communication>
+        	<enthusiasm>0</enthusiasm>
+        	<collegiality>49</collegiality>
+        </assessment>
+    </interview>
+
+    <interview rID = "r03" pID = "p03" sID = "s03">
+        <date>2014.11.29</date>
+        <time>1pm</time>
+		<location>ONtario lake</location>
+        <assessment> 
+        	<answers>
+        		<answer qID= "q07">22</answer>		
+        	</answers>
+        	<techProficiency>100</techProficiency>
+        	<communication>100</communication>
+        	<enthusiasm>69</enthusiasm>
+        </assessment>
+    </interview>
+    
+    <interview rID = "r04" pID = "p01" sID = "s01">
+        <date>2014.11.11</date>
+        <time>7pm</time>
+		<location>MB</location>
+        <assessment> 
+        
+            <answers>
+        		<answer qID= "q01">11</answer>	
+        		<answer qID= "q02">11</answer>	
+        		<answer qID= "q03">13</answer>
+        			
+        	</answers>
+        	<techProficiency>99</techProficiency>
+        	<communication>99</communication>
+        	<enthusiasm>99</enthusiasm>
+        	<collegiality>99</collegiality>
+        </assessment>
+    </interview> 
+    
+      <interview rID = "r05" pID = "p02" sID = "s03">
+        <date>2014.11.30</date>
+        <time>1pm</time>
+		<location>Chall</location>
+        <assessment> 
+        	<answers>
+        		<answer qID= "q02">52</answer>	
+        		<answer qID= "q05">20</answer>	
+        	</answers>
+        	<techProficiency>1</techProficiency>
+        	<communication>1</communication>
+        	<enthusiasm>1</enthusiasm>
+        	<collegiality>1</collegiality>
+        </assessment>
+    </interview> 
+    
+       <interview rID = "r06" pID = "p07" sID = "s02">
+        <date>2013.11.25</date>
+        <time>12pm</time>
+		<location>SS</location>
+        <assessment> 
+        	<techProficiency>8</techProficiency>
+        	<communication>88</communication>
+        	<enthusiasm>48</enthusiasm>
+        </assessment>
+    </interview> 
+    
+        <interview rID = "r07" pID = "p07" sID = "s03">
+        <date>2014.11.27</date>
+        <time>5pm</time>
+		<location>Robarts</location>
+        <assessment> 
+        	<techProficiency>77</techProficiency>
+        	<communication>7</communication>
+        	<enthusiasm>71</enthusiasm>
+        	<collegiality>78</collegiality>
+        </assessment>
+    </interview> 
+     <interview rID = "r08" pID = "p03" sID = "s03">
+        <date>2014.11.25</date>
+        <time>5pm</time>
+		<location>Rotman</location>
+        <assessment> 
+        	<answers>
+        		<answer qID= "q07">45</answer>	
+        	</answers>
+        	<techProficiency>21</techProficiency>
+        	<communication>56</communication>
+        	<enthusiasm>65</enthusiasm>
+        	<collegiality>45</collegiality>
+        </assessment>
+    </interview> 
+    
+      <interview rID = "r05" pID = "p03" sID = "s01">
+        <date>2014.11.25</date>
+        <time>11am</time>
+		<location>UC</location>
+        <assessment> 
+        	<answers>
+        		<answer qID= "q07">47</answer>
+        	</answers>
+        	<techProficiency>100</techProficiency>
+        	<communication>100</communication>
+        	<enthusiasm>100</enthusiasm>
+        	<collegiality>100</collegiality>
+        </assessment>
+    </interview> 
+
+    
+
+
+
+
+    <interviewer sID = "s01">
+    	<forename>Shuai</forename>
+    	<surname>Zhou</surname>
+    	<honorific>Mr.</honorific>
+    	<title>CEO</title>
+    </interviewer>
+
+    <interviewer sID = "s02">
+    	<forename>Wei</forename>
+        <surname>Ma</surname>
+        <honorific>Mr.</honorific>
+    </interviewer>
+
+    <interviewer sID = "s03">
+    	<forename>Zhu</forename>
+        <surname>Gou</surname>
+        <honorific>Ms.</honorific>
+    </interviewer>
+</interviews>

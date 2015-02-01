@@ -1,0 +1,337 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE resumes SYSTEM "resume.dtd">
+
+<resumes>
+	<resume rID="r01">
+		<summary>Excellent Candidate</summary>
+		<identification>
+			<!--name,sex,DOB,citizenship,address,telephone,email-->
+			<name>
+				<!--<!ELEMENT name (forename,surname,honorific+,title*)>-->
+				<forename>Armstrong</forename>
+				<surname>Acker</surname>
+				<honorific>Mr.</honorific>
+				<title>Manager</title>
+			</name>
+			<sex>Male</sex>
+			<DOB>Jan.12th 1989</DOB>
+			<citizenship>Canadian</citizenship>
+			<address>600 Wanping Road South</address>
+			<telephone>417-310-2222</telephone>
+			<email>AA@gmail.com</email>
+		</identification>
+		
+		<education>
+			<!--<!ELEMENT degree (degreeName,institution,major+,minor*,honours?,period)>-->
+			<degree level="undergraduate">
+				<degreeName>BSC</degreeName>
+				<institution>University of Toronto</institution>
+				<major>Computer science</major>
+				<minor>Philosophy</minor>
+				<minor>Psychology</minor>
+				<honours/>
+				
+				<!--<!ELEMENT period (startDate,endDate)>-->
+				<period>
+					<startDate>Sep.1st 2012</startDate>
+					<endDate>Jun.1st 2016</endDate>
+				</period>
+			</degree>
+			
+			<degree level="masters">
+				<degreeName>MS</degreeName>
+				<institution>UBC</institution>
+				<major>Computer science</major>
+				<major>Economics</major>
+				<honours/>
+				<period>
+					<startDate>Sep.2nd 2016</startDate>
+					<endDate>Jun.30th 2018</endDate>
+				</period>
+			</degree>
+
+			<degree level="doctoral">
+				<degreeName>PhD</degreeName>
+				<institution>MIT</institution>
+				<major>Computer sciences</major>
+				<minor>History</minor>
+				<period>
+					<startDate>Sep.3rd 2019</startDate>
+					<endDate>July.1st 2020</endDate>
+				</period>
+			</degree>		
+		</education>
+					
+		<experience>
+			<position where="ICBC">
+				<title>CEO</title>
+				<title>CFO</title>
+				<description>Impressive</description>
+
+				<period>
+					<startDate>Sep.9th 2020</startDate>
+					<endDate>Aug.23th 2030</endDate>
+				</period>
+			</position>
+
+			<position where="BMO">
+				<title>CTO</title>
+				<description>So So</description>
+				<period>
+					<startDate>Sep.12th 2030</startDate>
+					<endDate>Jan.23th 2031</endDate>
+				</period>
+			</position>			
+		</experience>
+		<skills>
+			<skill what="Java" level="2"/>
+			<skill what="SQL" level="5"/>
+			<skill what="XQuery" level="5"/>
+			<skill what="R" level="1"/>
+			<skill what="Prolog" level="4"/>
+		</skills>
+	</resume>
+	
+	<resume rID="r02">
+		<summary>Good Candidate, just graduate</summary>
+		<identification>
+			<!--name,sex,DOB,citizenship,address,telephone,email-->
+			<name>
+				<!--<!ELEMENT name (forename,surname,honorific+,title*)>-->
+				<forename>Belly</forename>
+				<surname>Bill</surname>
+				<honorific>Mr.</honorific>
+			</name>
+			<sex>Female</sex>
+			<DOB>Mar.12th 1994</DOB>
+			<citizenship>USA</citizenship>
+			<address>100 Wall Street</address>
+			<telephone>647-250-1024</telephone>
+			<email>BB@gmail.com</email>
+		</identification>
+		
+		<education>
+			<!--<!ELEMENT degree (degreeName,institution,major+,minor*,honours?,period)>-->
+			<degree level="undergraduate">
+				<degreeName>Bachelor of Engineer</degreeName>
+				<institution>UCB</institution>
+				<major>Computer engineer</major>
+				
+				<!--<!ELEMENT period (startDate,endDate)>-->
+				<period>
+					<startDate>Sep.15th 2024</startDate>
+					<endDate>May.3st 2028</endDate>
+				</period>
+			</degree>
+			
+			<degree level="masters">
+				<degreeName>MS</degreeName>
+				<institution>Caltech</institution>
+				<major>Computer science</major>
+				<period>
+					<startDate>Sep.3nd 2028</startDate>
+					<endDate>July.31st 2030</endDate>
+				</period>
+			</degree>
+	
+		</education>
+					
+		<skills>
+			<skill what="C" level="4"/>
+			<skill what="Haskell" level="2"/>
+			<skill what="Java" level="5"/>
+			<skill what="Perl" level="2"/>
+			<skill what="Python" level="5"/>
+			<skill what="MATLAB" level="2"/>
+			<skill what="Prolog" level="5"/>
+			<skill what="LaTeX" level="3"/>
+		</skills>		
+	</resume>
+	
+	<resume rID="r03">
+		<summary>No education info,but have a lot of working experince</summary>
+		<identification>
+			<!--name,sex,DOB,citizenship,address,telephone,email-->
+			<name>
+				<!--<!ELEMENT name (forename,surname,honorific+,title*)>-->
+				<forename>Christina</forename>
+				<surname>Cahill</surname>
+				<honorific>Ms.</honorific>
+			</name>
+			<sex>Female</sex>
+			<DOB>Nov.11st 1980</DOB>
+			<citizenship>Canadian</citizenship>
+			<address>600 College Street</address>
+			<telephone>480-538-5438</telephone>
+			<email>CC@yahoo.com</email>
+		</identification>
+					
+		<experience>
+			<position where="Google">
+				<title>SoftWare Engineer</title>
+				<description>Responsible</description>
+				<period>
+					<startDate>Dec.9th 2015</startDate>
+					<endDate>Dec.8th 2025</endDate>
+				</period>
+			</position>
+
+			<position where="MS">
+				<title>SoftWare Engineer</title>
+				<description>Not very Well</description>
+				<period>
+					<startDate>Dec.12th 2025</startDate>
+					<endDate>Dec.13th 2026</endDate>
+				</period>
+			</position>
+			
+			<position where="Apple">
+				<title>Product Manager</title>
+				<period>
+					<startDate>Dec.13th 2025</startDate>
+					<endDate>Dec.14th 2030</endDate>
+				</period>
+			</position>				
+		
+		</experience>	
+
+		<skills>
+			<skill what="Java" level="5"/>
+			<skill what="SQL" level="5"/>
+			<skill what="XQuery" level="5"/>
+			<skill what="Prolog" level="4"/>
+		</skills>
+	</resume>
+
+	<resume rID="r04">
+		<identification>
+			<!--name,sex,DOB,citizenship,address,telephone,email-->
+			<name>
+				<!--<!ELEMENT name (forename,surname,honorific+,title*)>-->
+				<forename>David</forename>
+				<surname>Danis</surname>
+				<honorific>Mr.</honorific>
+			</name>
+			<sex>Male</sex>
+			<DOB>Mar.12th 1993</DOB>
+			<citizenship>Canadian</citizenship>
+			<address>600 Wanping Road South</address>
+			<telephone>417-310-6222</telephone>
+			<email>David@gmail.com</email>
+		</identification>
+		<skills>
+			<skill what="SQL" level="5"/>
+			<skill what="Java" level="5"/>
+			<skill what="Prolog" level="4"/>
+			<skill what="XQuery" level="5"/>
+		</skills>
+	</resume>
+
+	<!--<!ATTLIST skill what (C|Java|SQL|XQuery|Haskell|Lisp|Scheme|Prolog|Perl|Python|R|MATLAB|Shell|sed|awk|LaTeX) #REQUIRED>-->
+
+	<resume rID="r05">
+		<identification>
+			<!--name,sex,DOB,citizenship,address,telephone,email-->
+			<name>
+				<!--<!ELEMENT name (forename,surname,honorific+,title*)>-->
+				<forename>Earl</forename>
+				<surname>Eills</surname>
+				<honorific>Mr.</honorific>
+			</name>
+			<sex>Male</sex>
+			<DOB>Feb.12th 1990</DOB>
+			<citizenship>French</citizenship>
+			<address>603 Wanping Road South</address>
+			<telephone>417-310-4222</telephone>
+			<email>Earl@gmail.com</email>
+		</identification>
+		<skills>
+			<!--<skill what="XQuery" level="5"/>-->
+			<skill what="Prolog" level="1"/>
+		</skills>
+	</resume>
+
+	
+	<resume rID="r06">
+		<identification>
+			<!--name,sex,DOB,citizenship,address,telephone,email-->
+			<name>
+				<!--<!ELEMENT name (forename,surname,honorific+,title*)>-->
+				<forename>Frank</forename>
+				<surname>Ford</surname>
+				<honorific>Mr.</honorific>
+			</name>
+			<sex>Male</sex>
+			<DOB>Jan.12th 1989</DOB>
+			<citizenship>German</citizenship>
+			<address>603 Wanping Road South</address>
+			<telephone>418-310-2222</telephone>
+			<email>Frank@gmail.com</email>
+		</identification>
+		<skills>
+			<skill what="SQL" level="5"/>
+		</skills>
+	</resume>
+
+<!--<!ATTLIST skill what (C|Java|SQL|XQuery|Haskell|Lisp|Scheme|Prolog|Perl|Python|R|MATLAB|Shell|sed|awk|LaTeX) #REQUIRED>-->
+	
+	<resume rID="r07">
+		<identification>
+			<!--name,sex,DOB,citizenship,address,telephone,email-->
+			<name>
+				<!--<!ELEMENT name (forename,surname,honorific+,title*)>-->
+				<forename>Gill</forename>
+				<surname>Goodman</surname>
+				<honorific>Mrs.</honorific>
+			</name>
+			<sex>Female</sex>
+			<DOB>Jan.12th 1976</DOB>
+			<citizenship>Canadian</citizenship>
+			<address>602 Wanping Road South</address>
+			<telephone>417-314-2222</telephone>
+			<email>Gill@gmail.com</email>
+		</identification>
+		<skills>
+			<skill what="C" level="5"/>
+			<skill what="Java" level="5"/>
+			<skill what="SQL" level="5"/>
+			<skill what="XQuery" level="5"/>
+			<skill what="Haskell" level="5"/>
+			<skill what="Lisp" level="5"/>
+			<skill what="Scheme" level="5"/>
+			<skill what="Prolog" level="5"/>
+			<skill what="Perl" level="5"/>
+			<skill what="Python" level="5"/>
+			<skill what="R" level="5"/>
+			<skill what="MATLAB" level="5"/>
+			<skill what="Shell" level="5"/>
+			<skill what="sed" level="5"/>
+			<skill what="LaTeX" level="5"/>
+			<!--no awk-->
+		</skills>
+	</resume>
+
+	<resume rID="r08">
+		<summary>No any skills</summary>
+		<identification>
+			<!--name,sex,DOB,citizenship,address,telephone,email-->
+			<name>
+				<!--<!ELEMENT name (forename,surname,honorific+,title*)>-->
+				<forename>Hill</forename>
+				<surname>Hunter</surname>
+				<honorific>Mr.</honorific>
+				<title>Dr.</title>
+			</name>
+			<sex>Male</sex>
+			<DOB>Jan.12th 1988</DOB>
+			<citizenship>Canadian</citizenship>
+			<address>601 Wanping Road South</address>
+			<telephone>417-310-1223</telephone>
+			<email>Hill@gmail.com</email>
+		</identification>
+		
+		<skills>
+		</skills>
+	</resume>
+</resumes>
+
